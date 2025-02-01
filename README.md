@@ -14,8 +14,8 @@
 - Запустить проект: npm start
 - Настроить переменные окружения:
   Создайте файл .env в корне проекта и добавьте свои данные:
-  REACT_APP_GREEN_API_ID=your_id_instance
-  REACT_APP_GREEN_API_TOKEN=your_api_token
+  1. REACT_APP_GREEN_API_ID=your_id_instance
+  2. REACT_APP_GREEN_API_TOKEN=your_api_token
   Замените your_id_instance и your_api_token на свои данные из Green API.
 
 💡 Как работает чат:
