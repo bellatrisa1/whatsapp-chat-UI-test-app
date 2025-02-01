@@ -1,73 +1,40 @@
-# Getting Started with Create React App
+📌 WhatsApp Chat UI (React + Green API)
 
+🚀 Описание проекта:
+ Простой чат для отправки и получения сообщений в WhatsApp с использованием Green API.
 
+ 🔧 Используемые технологии:
+ - React (создание UI)
+ - Green API (отправка и получение сообщений WhatsApp)
+ - Fetch API (работа с HTTP-запросами)
+ - CSS (базовые стили)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📥 Установка и запуск:
+- Установить зависимости: npm install
+- Запустить проект: npm start
+- Настроить переменные окружения:
+  Создайте файл .env в корне проекта и добавьте свои данные:
+  REACT_APP_GREEN_API_ID=your_id_instance
+  REACT_APP_GREEN_API_TOKEN=your_api_token
+  Замените your_id_instance и your_api_token на свои данные из Green API.
 
-## Available Scripts
+💡 Как работает чат:
+1. Пользователь вводит свои idInstance и apiTokenInstance (логин).
+2. Вводит номер телефона получателя (в формате 79991234567).
+3. Пишет и отправляет текстовое сообщение.
+4. Сообщение отправляется в WhatsApp через Green API.
+5. Если получатель отвечает, сообщение автоматически появляется в чате.
 
-In the project directory, you can run:
+🎯 Основные файлы
+ - App.js – главный компонент, переключает между логином и чатом.
+ - Login.jsx – компонент авторизации.
+ - Chat.jsx – компонент чата (отправка и получение сообщений).
+ - App.css – стили проекта.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+📷 Скриншоты
+- ![1](https://github.com/user-attachments/assets/55e34f54-3d59-424a-8aa0-2236d1a8f177)
+- ![2](https://github.com/user-attachments/assets/f2357dbc-f289-46b8-bd59-937b78bd12b0)
+- ![3](https://github.com/user-attachments/assets/b0544da1-d247-4bb2-9127-f5273d755410)
+- ![4](https://github.com/user-attachments/assets/5e1f92d8-3162-4a60-8e17-02636c801d97)
+- ![5](https://github.com/user-attachments/assets/798654f2-18a5-4c4f-8cd8-4983360611a5)
+- ![6](https://github.com/user-attachments/assets/b8acbb3a-4435-476f-abac-ea9ce3602965)
